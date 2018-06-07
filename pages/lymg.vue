@@ -1,7 +1,7 @@
 <template>
 
     <div class="inner">
-        <h2>About</h2>
+        <h2>Lane Yacht Management Group</h2>
 
     </div>
 

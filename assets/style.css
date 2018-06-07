@@ -1,4 +1,4 @@
-/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/*! (abbreviated) normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
@@ -17,11 +17,12 @@
      ========================================================================== */
   
   /**
-   * Remove the margin in all browsers.
+   * Remove the margin in all browsers and overflow.
    */
   
   body {
     margin: 0;
+    overflow-x: hidden;
   }
   
   /**
@@ -129,7 +130,8 @@
   sup {
     top: -0.5em;
   }
-  
+
+
   /* Embedded content
      ========================================================================== */
   
@@ -334,6 +336,24 @@
 
   /*! helpers */
 
+  /**
+    * we're doing it
+    */ 
+
+   * {
+     box-sizing: border-box;
+   }
+  
+  /**
+   * remove some built in list stylings
+   */
+  
+   ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
   /*Fonts*/
 
   body {
@@ -348,13 +368,32 @@
     font-family: 'Roboto Slab', serif;
   }
 
+  /* Colors */
+
+  .background-transparent {
+    background-color: rgba(1,1,1,.67);
+    color: white;
+  }
+
   .background-black {
     background-color: black;
     color: white;
   }
 
+  .background-blue {
+    background: #232837;
+    color: white;
+  }
+
   .background-red {
     background-color: #f44336;
+    color: white;
+  }
+  .background-transparent a,
+  .background-black a, 
+  .background-blue a, 
+  .background-red a {
+    color: white;
   }
 
   /* Layouts */
@@ -374,4 +413,27 @@
 
   .flex-item {
     flex: 1;
+  }
+
+  .inner {
+    margin: auto;
+    max-width: 800px;
+  }
+
+  .padded {
+    padding: .5em;
+  }
+
+  .double-padded {
+    padding: 1em;
+  }
+
+  /* Z-Index */ 
+
+  .z1 {
+    z-index: 1;
+  }
+
+  .z2 {
+    z-index: 2;
   }

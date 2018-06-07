@@ -1,17 +1,28 @@
 <template>
+    <div>
+        <main class="flex-box centered">
+            
+            <div class="background-black flex-box column">
+                <h2>We are invested in your success - because we live here too</h2>
+                <nuxt-link to="/contact" class="background-red roboto-slab" >Contact Us Today</nuxt-link>
+            </div>
 
-    <main class="flex-box centered">
-        
-        <div class="background-black flex-box column">
-            <h2>Invested in your success.</h2>
-            <nuxt-link to="/contact" class="background-red roboto-slab" >Contact Us Today</nuxt-link>
-        </div>
+        </main>
 
+        <work number="3"></work>
 
-    </main>
+    </div>
 
 </template>
+<script>
+    import Work from '../components/work'    
 
+    export default {
+        components: {
+            Work
+        }
+    }
+</script>
 <style scoped>
     main {
         background: url('~/assets/purchase.jpg');        
@@ -21,7 +32,7 @@
     }
 
     main div {
-        font-size: 1.5em;
+        font-size: 1.25em;
         padding: 2em;        
     }
 
@@ -30,8 +41,7 @@
         margin: 0 0 1em 0;
     }
 
-    main div a {
-        color: white;
+    main div a {        
         display: block;    
         padding: 1em;    
         text-align: center;
