@@ -29,20 +29,14 @@
                     },
                     {
                         title: 'Lane Yacht Management Group',
-                        backgroundImage: '',
-                        link: '/lymg',
+                        backgroundImage: '/lymg.png',
+                        link: '/lane-yacht-management-group',
                     },
                     {
                         title: 'Cape Cod Roof Cleaners',
-                        backgroundImage: '',
-                        link: '/lymg',
-                    },               
-                    {
-                        title: 'Cape Cod Roof Cleaners',
-                        backgroundImage: '',
-                        link: '/lymg',
-                    },     
-                
+                        backgroundImage: '/roof.png',
+                        link: '/cape-cod-roof-cleaners',
+                    },                               
                 ],
             }
         },
@@ -79,6 +73,7 @@
 
     ul li {
         height: 200px;
+        transition: all 1s;
     }
 
     ul li a {

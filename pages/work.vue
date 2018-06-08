@@ -1,9 +1,6 @@
 <template>
     <div>
-        <div class="inner">
-            <h2>Work</h2>
-        </div>
-            <work number="12"></work>
+        <work number="12"></work>
     </div>
 
 </template>

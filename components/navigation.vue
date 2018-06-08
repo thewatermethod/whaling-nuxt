@@ -1,5 +1,5 @@
 <template>
-    <div class="site-header background-black flex-box">
+    <div class="site-header background-black flex-box centered">
         <h1 class="padded z2"><nuxt-link class="z2" to="/">Whaling City Web Design</nuxt-link></h1>
         <div v-on:click="toggleMenu" id="burger" class="nav-left-icon burger-menu-btn z2"><span></span></div>
         <nav id="navMenu" class="z1">
@@ -51,13 +51,12 @@
 <style scoped>
     
     div.site-header {
-        align-items: center;
         justify-content: space-between;
         padding: 0 1em;
     }
 
-    h1 a {
-        color: white;
+    h1 a {     
+        text-decoration: none;
     }
 
 	.burger-menu-btn.open{

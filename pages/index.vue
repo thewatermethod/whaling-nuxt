@@ -31,6 +31,12 @@
         min-height: 80vh;
     }
 
+    @media( max-width: 1200px ){
+        main {
+            min-height: 60vh;
+        }
+    }
+
     main div {
         font-size: 1.25em;
         padding: 2em;        

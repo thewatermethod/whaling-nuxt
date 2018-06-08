@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header class="entry-header">
+        <header class="entry-header background-full parallax">
             <div class="background-transparent flex-box column">
                 <h2 class="inner">Soares Pumping</h2>
             </div>
@@ -15,11 +15,7 @@
 
 <style scoped>
     header {
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-image: url('~/assets/truck.jpg');
-        height: 25vh;
+        background-image: url('~/assets/truck.jpg');    
     }
 
     header div {

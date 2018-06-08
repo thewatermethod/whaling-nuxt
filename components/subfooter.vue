@@ -1,16 +1,17 @@
 <template>
-    <div>
+    <div>   
+        <contact />
 
     </div>
 </template>
 
 <script>
 
+    import Contact from '../components/contact'    
+
     export default {
-
-        methods: {
-
-
+        components: {
+            Contact
         }
     }
 
