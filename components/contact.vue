@@ -6,13 +6,13 @@
 
         <input type="text" id="input-name" placeholder="Name" name="contactName"> 
         <input type="email" id="input-email" placeholder="Email address" name="contactEmail"> 
+       
         <select id="input-subject" placeholder="Subject" name="contactSubject">
             <option value="Question">I have a question</option>
             <option value="Meeting">I would like to schedule a meeting</option>
             <option value="Pricing">I would like to see your pricing sheet</option> 
-        </select> 
+        </select>         
         
-        <input type="text" id="thisField" required="" name="thisField">
         <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
         <input type="hidden" id="whaling_city_web_contact_us_email_nonce" name="whaling_city_web_contact_us_email_nonce" value="069081a119">
         <input type="hidden" name="_wp_http_referer" value="/cape-cod-roof-cleaners/"> 
