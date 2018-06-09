@@ -1,6 +1,6 @@
 <template>
 
-    <div class="form inner">
+    <form class="inner" name="contact" method="POST" netlify>
    
         <h2>Let's Talk</h2>
 
@@ -17,9 +17,9 @@
         <input type="hidden" id="whaling_city_web_contact_us_email_nonce" name="whaling_city_web_contact_us_email_nonce" value="069081a119">
         <input type="hidden" name="_wp_http_referer" value="/cape-cod-roof-cleaners/"> 
    
-        <button v-on:click="triggerAjax" class="background-red padded" id="input-submit">Get in Touch</button>
+        <button class="background-red padded" id="input-submit" type="submit">Get in Touch</button>
    
-    </div>
+    </form>
 
 </template>
 
@@ -97,6 +97,11 @@
 
     button:hover {
         background: #e53935;
+    }
+
+    #thisField {
+        left: -99999px;
+        position: fixed;        
     }
 
 
