@@ -1,6 +1,6 @@
 <template>
 
-    <form class="inner" name="contact" method="POST" netlify>
+    <form class="inner" name="contact" method="POST" action="/" netlify>
    
         <h2>Let's Talk</h2>
 
@@ -17,7 +17,7 @@
 
         <input type="hidden" name="form-name" value="contact" />
         <div data-netlify-recaptcha></div>
-        
+
         <button class="background-red padded" id="input-submit" type="submit">Get in Touch</button>
    
     </form>
