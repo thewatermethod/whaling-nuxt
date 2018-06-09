@@ -1,6 +1,6 @@
 <template>
 
-    <form class="inner" name="contact" method="POST" action="/" netlify>
+    <form class="inner" name="contact" method="POST" action="/success" netlify>
    
         <h2>Let's Talk</h2>
 
