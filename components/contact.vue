@@ -17,7 +17,7 @@
         <input type="hidden" id="whaling_city_web_contact_us_email_nonce" name="whaling_city_web_contact_us_email_nonce" value="069081a119">
         <input type="hidden" name="_wp_http_referer" value="/cape-cod-roof-cleaners/"> 
    
-        <button class="background-red padded" id="input-submit" type="submit">Get in Touch</button>
+        <button v-on:click="thankYou" class="background-red padded" id="input-submit" type="submit">Get in Touch</button>
    
     </form>
 
@@ -59,6 +59,15 @@
                 /*.then( response=> response.json() )
                 .then( theJson => console.log(theJson) );*/
 
+            },
+
+            thankYou: function(event){
+                event.preventDefault();
+                event.target.style.display = 'none';
+                var parent = event.target.parentNode;
+                var thankYou = document.createElement('p');
+                thankYou.innerText = 'Thanks for your interest... we\'ll get back to you shortly';
+                parent.appendChild(thankYou);
             },
 
             triggerAjax: function(){
