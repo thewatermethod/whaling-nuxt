@@ -15,7 +15,7 @@
         
         <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
    
-        <button v-on:click="thankYou" class="background-red padded" id="input-submit" type="submit">Get in Touch</button>
+        <button class="background-red padded" id="input-submit" type="submit">Get in Touch</button>
    
     </form>
 
@@ -60,7 +60,7 @@
             },
 
             thankYou: function(event){
-                event.preventDefault();
+              //  event.preventDefault();
                 event.target.style.display = 'none';
                 var parent = event.target.parentNode;
                 var thankYou = document.createElement('p');
