@@ -32,9 +32,16 @@
     }
 
     @media( max-width: 1200px ){
-        main {
+        main.flex-box.centered {
+            align-items: flex-end;
             min-height: 60vh;
         }
+
+        main div h2{
+            font-size: 1em;
+            text-align: center;
+        }
+
     }
 
     main div {
