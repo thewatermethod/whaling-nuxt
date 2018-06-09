@@ -14,7 +14,8 @@
         </select>         
         
         <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
-   
+    
+        <div data-netlify-recaptcha></div>
         <button class="background-red padded" id="input-submit" type="submit">Get in Touch</button>
    
     </form>
