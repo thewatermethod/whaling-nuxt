@@ -5,16 +5,13 @@
 
 </template>
 <script>
-    import Work from '../components/work'    
+import Work from "../components/work";
 
-    export default {
-        components: {
-            Work
-        }
-    }
+export default {
+  components: {
+    Work
+  }
+};
 </script>
 <style scoped>
-
-
-
 </style>

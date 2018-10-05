@@ -15,17 +15,16 @@
 </template>
 
 <script>
-    import Iconmenu from '../components/iconmenu'
-    import Navigation from '../components/navigation'
-    import Subfooter from '../components/subfooter'
+import Iconmenu from "../components/Iconmenu";
+import Navigation from "../components/Navigation";
+import Subfooter from "../components/Subfooter";
 
-    export default {
-        components: {
-            Iconmenu,
-            Navigation,
-            Subfooter
-        }
-    }
-
+export default {
+  components: {
+    Iconmenu,
+    Navigation,
+    Subfooter
+  }
+};
 </script>
 

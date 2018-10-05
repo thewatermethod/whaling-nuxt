@@ -22,7 +22,7 @@
 import Iconmenu from "../components/Iconmenu";
 import Navigation from "../components/Navigation";
 import Subfooter from "../components/Subfooter";
-import Olark from "../components/olark";
+import Olark from "../components/Olark";
 
 export default {
   components: {

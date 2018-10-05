@@ -5,22 +5,14 @@
 </template>
 
 <script>
+import Contact from "../components/Contact";
 
-    import Contact from '../components/contact'    
-
-    export default {
-        components: {
-            Contact
-        }
-    }
-
-
-
+export default {
+  components: {
+    Contact
+  }
+};
 </script>
 
 <style scoped>
-    
- 
-
-
 </style>
