@@ -55,6 +55,11 @@
         padding: 0 1em;
     }
 
+    h1 { 
+        font-size: 1.25em;
+        padding: 1em 0;
+    }
+
     h1 a {     
         text-decoration: none;
     }
@@ -117,7 +122,7 @@
         background: #ffa000;
         bottom: 0;
         left: 0;
-        padding: 10%;
+        padding: 25% 10%;
         right: 0;    
         top: 0;                               
     }
@@ -130,6 +135,11 @@
 
     @media( min-width: 1200px ){
 
+        h1 {
+            font-size: 2em;
+            padding: 0;            
+        }
+
         .burger-menu-btn {
             display: none;
         }
@@ -137,6 +147,10 @@
         nav {
             position: relative;
             left: auto;
+        }
+
+        nav.opened {   
+            padding: 10%;
         }
 
         nav  ul {

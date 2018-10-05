@@ -88,4 +88,14 @@
         background-size: 100%;
     }
 
+    @media( max-width: 1200px ){
+        h2 {
+            font-size: 1em;
+        }
+        ul{
+            display: block;
+        }
+    }
+
+
 </style>

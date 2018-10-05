@@ -6,6 +6,9 @@ module.exports = {
         link: [
             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto+Slab:300' },
         ],
+        meta: [
+            {name: 'viewport', content: 'width=device-width, initial-scale=1'}
+        ],
     }
 }
 
