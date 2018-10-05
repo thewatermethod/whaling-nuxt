@@ -15,7 +15,7 @@
 
 </template>
 <script>
-import Work from "../components/Work";
+import Work from "../components/work";
 
 export default {
   components: {

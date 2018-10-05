@@ -19,10 +19,10 @@
 </template>
 
 <script>
-import Iconmenu from "../components/Iconmenu";
-import Navigation from "../components/Navigation";
-import Subfooter from "../components/Subfooter";
-import Olark from "../components/Olark";
+import Iconmenu from "../components/iconmenu";
+import Navigation from "../components/navigation";
+import Subfooter from "../components/subfooter";
+import Olark from "../components/olark";
 
 export default {
   components: {
