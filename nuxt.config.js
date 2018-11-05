@@ -9,7 +9,10 @@ module.exports = {
     ],
     meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }]
   },
-  plugins: [{ src: "~plugins/olark.js", ssr: false }]
+  plugins: [
+    { src: "~plugins/olark.js", ssr: false },
+    { src: "~plugins/ga.js", ssr: false }
+  ]
 };
 
 //https://nuxtjs.org/
