@@ -18,6 +18,7 @@
         <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
 
         <input type="hidden" name="form-name" value="contact" />      
+        <div data-netlify-recaptcha="true"></div>
 
         <button class="background-red padded" id="input-submit" type="submit">Get in Touch</button>
    
