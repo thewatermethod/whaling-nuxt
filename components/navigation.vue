@@ -49,7 +49,7 @@ export default {
   },
 
   mounted() {
-    console.log(olark);
+    
   }
 };
 </script>
