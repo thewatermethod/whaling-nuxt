@@ -25,7 +25,7 @@ export default {
 </script>
 <style scoped>
 main {
-  background: url("~/assets/purchase.jpg");
+  background: url("~assets/purchase.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 80vh;
