@@ -8,12 +8,6 @@
     </div>
     <nav id="navMenu" class="z1">
       <ul class="column flex-box roboto-slab">
-        <li v-on:click="navigate">
-          <nuxt-link to="/about">Mission</nuxt-link>
-        </li>
-        <li v-on:click="navigate">
-          <nuxt-link to="/work">Work</nuxt-link>
-        </li>
         <li>
           <span v-on:click="chat">Contact Us</span>
         </li>
@@ -25,11 +19,11 @@
 <script>
 export default {
   methods: {
-    chat: function() {
+    chat: function () {
       olark("api.box.expand");
     },
 
-    navigate: function() {
+    navigate: function () {
       var burger = document.querySelector("#burger");
       var navMenu = document.querySelector("#navMenu");
 
@@ -42,15 +36,13 @@ export default {
       }
     },
 
-    toggleMenu: function(event) {
+    toggleMenu: function (event) {
       document.querySelector("#burger").classList.toggle("open");
       document.querySelector("#navMenu").classList.toggle("opened");
-    }
+    },
   },
 
-  mounted() {
-    
-  }
+  mounted() {},
 };
 </script>
 

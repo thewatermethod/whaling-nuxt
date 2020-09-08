@@ -3,9 +3,7 @@
     <iconmenu></iconmenu>
     <navigation></navigation>
 
-    <nuxt/>
-
-    <subfooter></subfooter>
+    <nuxt />
 
     <div class="site-footer background-black flex-box centered padded">
       <a href="https://nuxtjs.org/">Powered by Nuxt</a>
@@ -23,11 +21,11 @@ export default {
     Iconmenu,
     Navigation,
 
-    Subfooter
+    Subfooter,
   },
   head: {
-    title: "Whaling City Web"
-  }
+    title: "Whaling City Web",
+  },
 };
 </script>
 

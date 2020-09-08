@@ -1,26 +1,20 @@
 <template>
-    <div>
-        <main class="flex-box centered">
-            
-            <div class="background-black flex-box column">
-                <h2>We are invested in your success - because we live here too</h2>
-                <nuxt-link to="/contact" class="background-red roboto-slab" >Contact Us Today</nuxt-link>
-            </div>
-
-        </main>
-
-        <work number="3"></work>
-
-    </div>
-
+  <div>
+    <main class="flex-box centered">
+      <div class="background-black flex-box column">
+        <h2>We are invested in your success - because we live here too</h2>
+        <button @click="chat" class="background-red roboto-slab">Contact Us Today</button>
+      </div>
+    </main>
+  </div>
 </template>
 <script>
-import Work from "../components/work";
-
 export default {
-  components: {
-    Work
-  }
+  methods: {
+    chat: function () {
+      olark("api.box.expand");
+    },
+  },
 };
 </script>
 <style scoped>
@@ -53,7 +47,8 @@ main div h2 {
   margin: 0 0 1em 0;
 }
 
-main div a {
+main div button {
+  border: 0;
   display: block;
   padding: 1em;
   text-align: center;
