@@ -2,7 +2,7 @@
   <div>
     <main class="flex-box centered">
       <div class="background-black flex-box column">
-        <h2>We are invested in your success - because we live here too</h2>
+        <h2>A rising tide lifts all ships</h2>
         <button @click="chat" class="background-red roboto-slab">Contact Us Today</button>
       </div>
     </main>
