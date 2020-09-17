@@ -22,7 +22,7 @@ main {
   background: url("~assets/purchase.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 90vh;
 }
 
 @media (max-width: 1200px) {

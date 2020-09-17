@@ -3,7 +3,7 @@
     <iconmenu></iconmenu>
     <navigation></navigation>
 
-    <nuxt/>
+    <nuxt />
 
     <div class="site-footer background-black flex-box centered padded">
       <a href="https://nuxtjs.org/">Powered by Nuxt</a>
@@ -18,11 +18,11 @@ import Navigation from "../components/navigation";
 export default {
   components: {
     Iconmenu,
-    Navigation
+    Navigation,
   },
   head: {
-    title: "Whaling City Web"
-  }
+    title: "Whaling City Web",
+  },
 };
 </script>
 

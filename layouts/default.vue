@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <iconmenu></iconmenu>
     <navigation></navigation>
 
@@ -28,4 +28,8 @@ export default {
   },
 };
 </script>
-
+<style scoped>
+.main {
+  min-height: 100vh;
+}
+</style>

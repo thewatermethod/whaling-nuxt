@@ -1,21 +1,14 @@
 <template>
   <div class="top-nav background-blue">
-    <span class="small" v-if="showCookieWarning">
-      This site uses Google Analytics to track page views. You can visit the
-      <a
-        href="https://policies.google.com/privacy?hl=en&gl=zz"
-      >Google Analytics privay policy here</a>.
-      <small v-on:click="closeMessage">[CLOSE MESSAGE]</small>
-    </span>
     <ul>
       <li>
         <a href="tel:0000000">
-          <img src="~/assets/phone.svg" scale="0">
+          <img src="~/assets/phone.svg" scale="0" />
         </a>
       </li>
       <li>
         <nuxt-link to="/contact/">
-          <img src="~/assets/message-circle.svg" scale="0">
+          <img src="~/assets/message-circle.svg" scale="0" />
         </nuxt-link>
       </li>
     </ul>
@@ -24,30 +17,30 @@
 
 <script>
 export default {
-  data: function() {
+  data: function () {
     return {
-      showCookieWarning: false
+      showCookieWarning: false,
     };
   },
 
   methods: {
-    closeMessage: function(event) {
+    closeMessage: function (event) {
       document.cookie = "whalingcityweb=cookie";
       event.target.parentNode.remove();
-    }
+    },
   },
 
   mounted() {
     if (
       !document.cookie
         .split(";")
-        .filter(item => item.includes("whalingcityweb=")).length
+        .filter((item) => item.includes("whalingcityweb=")).length
     ) {
       this.showCookieWarning = true;
     }
   },
 
-  props: []
+  props: [],
 };
 </script>
 
